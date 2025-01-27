@@ -1,0 +1,3 @@
+delete from table_name where field = value;
+
+we use this query to delete any data from database.
