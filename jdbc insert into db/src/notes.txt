@@ -1,0 +1,3 @@
+executeUpdate() ---> it is used to insert any particular data into database
+executeQuery() ---> it is used to retrieve data from database
+
