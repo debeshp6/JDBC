@@ -1,0 +1,20 @@
+"C:\Program Files\Java\jdk-23\bin\java.exe" "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.3.2.1\lib\idea_rt.jar=51335:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.3.2.1\bin" -Dfile.encoding=UTF-8 -Dsun.stdout.encoding=UTF-8 -Dsun.stderr.encoding=UTF-8 -classpath "C:\Users\debes\IdeaProjects\first jdbc program\out\production\first jdbc program;C:\Users\debes\Downloads\mysql-connector-j-9.2.0\mysql-connector-j-9.2.0\mysql-connector-j-9.2.0.jar" Main
+Loading class `com.mysql.jdbc.Driver'. This is deprecated. The new driver class is `com.mysql.cj.jdbc.Driver'. The driver is automatically registered via the SPI and manual loading of the driver class is generally unnecessary.
+drivers loaded successfully!
+connection established successfully!
+
+================================================
+ID: 1
+Name: Aisha
+Job Title: Executive
+Salary: 17000.0
+
+================================================
+ID: 2
+Name: Debesh
+Job Title: Developer
+Salary: 25000.0
+
+connection closed successfully!
+
+Process finished with exit code 0
