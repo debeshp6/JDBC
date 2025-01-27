@@ -1,0 +1,21 @@
+mysql> select * from employees;
++----+--------+---------------------+--------+
+| id | name   | job_title           | salary |
++----+--------+---------------------+--------+      (before updation)
+|  1 | Aisha  | Executive           |  17000 |
+|  2 | Debesh | Developer           |  25000 |
+|  4 | Rupsa  | Desk Manager (Head) |  25000 |
++----+--------+---------------------+--------+
+3 rows in set (0.00 sec)
+
+mysql> select * from employees;
++----+--------+---------------------+--------+
+| id | name   | job_title           | salary |
++----+--------+---------------------+--------+      (after updation)
+|  1 | Aisha  | Executive           |  17000 |
+|  2 | Debesh | Technical Lead      |  50000 |
+|  4 | Rupsa  | Desk Manager (Head) |  25000 |
++----+--------+---------------------+--------+
+3 rows in set (0.00 sec)
+
+mysql>
