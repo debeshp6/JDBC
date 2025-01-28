@@ -1,0 +1,4 @@
+ResultSet interface is used only while we retrieve data.
+when we do some kinda insertion, that time we use/create a local variable 'rowsAffected'.
+if rowsAffected is greater than 0 means insertion is complete.
+overall, we don't use ResultSet in data insertion. remember, that is only used while retrieving data.

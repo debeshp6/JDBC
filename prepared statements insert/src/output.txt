@@ -1,0 +1,21 @@
++----+--------+---------------------+--------+
+| id | name   | job_title           | salary |
++----+--------+---------------------+--------+      (before insertion)
+|  1 | Aisha  | Executive           |  17000 |
+|  2 | Debesh | Technical Lead      |  50000 |
+|  4 | Rupsa  | Desk Manager (Head) |  25000 |
++----+--------+---------------------+--------+
+3 rows in set (0.00 sec)
+
+mysql> select * from employees;
++----+---------+---------------------+--------+
+| id | name    | job_title           | salary |
++----+---------+---------------------+--------+      (after insertion)
+|  1 | Aisha   | Executive           |  17000 |
+|  2 | Debesh  | Technical Lead      |  50000 |
+|  4 | Rupsa   | Desk Manager (Head) |  25000 |
+|  5 | Pragati | Desk Manager        |  20000 |
++----+---------+---------------------+--------+
+4 rows in set (0.00 sec)
+
+mysql>
