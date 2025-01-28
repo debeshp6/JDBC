@@ -1,0 +1,12 @@
+you must know/understand what is data consistency before starting transaction handling  in jdbc.
+
+data consistency: data consistency in JDBC refers to ensuring that data remains uniform and accurate across different transactions and database operations.
+for instance, transaction b/w two bank accounts. debit and credit only occuring b/w the two accounts.
+the overall data in database still remains if wwe do a sum of all transaction.
+no loss no gain, right!
+that's called data consistency.
+
+
+TWO METHODS FOR TRANSACTION MANAGEMENT:
+1. commit
+2. rollback
