@@ -1,0 +1,29 @@
+============================== SINGLE PLACEHOLDER ==============================
+
++----+--------+---------------------+--------+
+| id | name   | job_title           | salary |
++----+--------+---------------------+--------+
+|  1 | Aisha  | Executive           |  17000 |
+|  2 | Debesh | Technical Lead      |  50000 |
+|  4 | Rupsa  | Desk Manager (Head) |  25000 |
++----+--------+---------------------+--------+
+
+
+"C:\Program Files\Java\jdk-23\bin\java.exe" "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.3.2.1\lib\idea_rt.jar=50143:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.3.2.1\bin" -Dfile.encoding=UTF-8 -Dsun.stdout.encoding=UTF-8 -Dsun.stderr.encoding=UTF-8 -classpath "C:\Users\debes\IdeaProjects\prepared statements\out\production\prepared statements;C:\Users\debes\Downloads\mysql-connector-j-9.2.0\mysql-connector-j-9.2.0\mysql-connector-j-9.2.0.jar" Main
+drivers loaded successfully.
+connection established successfully.
+
+ID: 1
+Name: Aisha
+Job Title: Executive
+Salary: 17000.0
+
+connection closed successfully.
+
+Process finished with exit code 0
+
+
+
+
+============================== MULTIPLE PLACEHOLDER ==============================
+
